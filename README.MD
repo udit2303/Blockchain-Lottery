@@ -36,7 +36,13 @@ You can get a `INFURA_PROJECT_ID` by getting a free trial of [Infura](https://in
 
 You'll also need testnet Sepolia ETH and LINK. You can get LINK and ETH into your wallet by using the [Sepolia faucets located here](https://faucets.chain.link/sepolia).
 
+## Compiling
+To compile the contract, run
+```bash
+brownie compile
+```
 
+## Deploying
 If you want to run the deployment script on a specific network, you can specify the network name with the --network flag. For example, if you wanted to deploy to the Sepolia test network, you would use the command 
 ```bash
 brownie run scripts/deploy --network Sepolia.
